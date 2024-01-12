@@ -1,0 +1,33 @@
+﻿@{
+	var CurrentDate = int.Parse(DateTime.Now.ToString("yyyyMMdd"));
+	var BirthDay = 20070903;
+	var Difference = (CurrentDate - BirthDay);
+	var age = Difference / 10000;
+}
+
+
+
+
+@page "/"
+
+
+
+<PageTitle>About Me</PageTitle>
+
+
+<p></p>
+
+<h2><strong>About Me 🏠</strong></h2>
+
+<p>
+	My name is Cameron, I'm a @age year old programmer and artist from the UK.<br>
+	I first picked up programming when I was 13 developing a basic discord bot using Discord.js<br>
+	Since then I have taken a GCSE in computer science and accustomed myself to a multitude of software and tools<br>
+	I am fluent in Python and am currently teaching myself C++ and C#, hence why I opted to make this portfolio using Blazor<br>
+	I wish to take on a Career in software development and have an interest in game development<br>	
+	With this increased interest I have researched and used software frameworks such as FNA and MonoGame, both of which are based on Microsoft's now depricated XNA game framework<br>
+	
+</p>
+
+
+
